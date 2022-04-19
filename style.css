@@ -1,0 +1,46 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color:rgb(201, 200, 193);
+    color: rgb(220, 220, 231);
+    margin: 0px;
+  }
+  
+  header{
+    background:rgb(27, 24, 27);
+    text-align: center;
+    
+    width: 97%;
+    padding: 50px;
+    height: 40PX;
+  }
+  
+  
+ 
+ 
+  
+.contenedor {
+    overflow: auto;
+  }
+  
+  .contenedor a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: seashell ;
+    font-size: 17px;
+  }
+  
+  .contenedor a:hover {
+    background-color: #ddd;
+    color:white;
+  }
+  
+  .contenedor a.active {
+    color: white;
+  }
